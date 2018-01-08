@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans|Roboto:300,400&subset=cyrillic');
+
+body {
+    background-image: url(/img/bg-img.png);
+    background-position: center top;
+    background-repeat: repeat-y;
+    overflow-y: scroll;
+    min-width: 350px;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: bitter;
+    font-style: italic;
+}
+
+h2 {
+    font-family: bitter;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    font-size: 42px;
+    margin: 30px 0;
+}
+
+.btn-new {
+    margin-bottom: 20px;
+    font-size: 18px;
+    -webkit-border-radius: 30px;
+    background: #2196F3;
+    color: #FFFFFF;
+    border: 1px solid #2196F3;
+    padding: 10px 20px;
+}
+
+.main-block img {
+    margin-bottom: 30px;
+}
+
+.main-block h3 a {
+    color: black;
+}
+
+
+
+.desc {
+font-family: bitter;
+font-style: italic;
+font-size: 15px;
+}
+
+
+.modal-backdrop {
+    position: absolute;
+    z-index: 1040;
+}
+
+.caption {
+    text-align: center;
+}
+
+.caption p {
+    font-size: 16px;
+}
+
+.thumbnail {
+    background-color: #fff44f;
+    border: 0px;
+}
+
+.navbar {
+    background-color: #fff44f;
+    border: 3px solid black;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.navbar-nav li {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #333333;
+}
+
+.phone a{
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: #333333;
+    margin-top: 10px;
+}
+
+.whatsapp img{
+    float: right;
+}
+
+.head-mess {
+    background-color: #fff44f;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.head-mess p {
+    text-align: center;
+    font-size: 17px;
+}
+
+.main-block {
+    background-color: #fff44f;
+    border: 3px solid black;
+    margin-top: 40px;
+}
+
+
+.footer-block {
+    background-color: #fff44f;
+    border: 3px solid black;
+    margin-top: 40px;
+}
+
+.footer-block p {
+    text-align: center;
+}
+
+.video {
+}
+
+.head-text {
+    font-size: 16px;
+}
+
+.del-item {
+    cursor: pointer;
+}
+
+#cart-table {
+    background-color: floralwhite;
+    margin-top: 10px;
+}
+
+.btn-success-cart {
+    margin-bottom: 10px;
+}
+
+.out-of-stock {
+    background-color: red;
+    border: none;
+}
+
+.buy-button {
+    margin-top: 20px;
+}
+
+.item-card {
+
+}
+
+.item-card h1 {
+    text-align: unset;
+    font-size: 45px;
+
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        background-image: url(/img/bg-img-mob.png);
+    }
+}
